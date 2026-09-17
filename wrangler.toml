@@ -7,6 +7,10 @@ keep_vars = true
 enabled = true
 head_sampling_rate = 1
 
+[observability.traces]
+enabled = true
+head_sampling_rate = 0.05
+
 [[kv_namespaces]]
 binding = "KV"
 id = "93f3a8a62cd9466196a878f2380b09f5"
